@@ -3,7 +3,7 @@ import hero_carousel_2 from'../img/hero-carousel/hero-carousel-2.jpg'
 import hero_carousel_3 from'../img/hero-carousel/hero-carousel-3.jpg'
 import hero_carousel_4 from'../img/hero-carousel/hero-carousel-4.jpg'
 import hero_carousel_5 from'../img/hero-carousel/hero-carousel-5.jpg'
-
+import '../styles/css/App.css'; 
 
 
 

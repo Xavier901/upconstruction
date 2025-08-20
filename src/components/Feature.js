@@ -1,3 +1,10 @@
+import features_1 from'../img/features-1.jpg'
+import features_2 from'../img/features-2.jpg'
+import features_3 from'../img/features-3.jpg'
+import features_4 from'../img/features-4.jpg'
+
+import { Link } from "react-router-dom";
+
 function Feature() {
     return( 
     <section id="features" class="features section">
@@ -7,27 +14,27 @@ function Feature() {
         <ul class="nav nav-tabs row  g-2 d-flex" data-aos="fade-up" data-aos-delay="100" role="tablist">
 
           <li class="nav-item col-3" role="presentation">
-            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1" aria-selected="true" role="tab">
+            <Link class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1" aria-selected="true" role="tab">
               <h4>Modisit</h4>
-            </a>
+            </Link>
           </li>
 
           <li class="nav-item col-3" role="presentation">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2" aria-selected="false" tabindex="-1" role="tab">
+            <Link class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2" aria-selected="false" tabindex="-1" role="tab">
               <h4>Praesenti</h4>
-            </a>
+            </Link>
 
           </li>
           <li class="nav-item col-3" role="presentation">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3" aria-selected="false" tabindex="-1" role="tab">
+            <Link class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3" aria-selected="false" tabindex="-1" role="tab">
               <h4>Explica</h4>
-            </a>
+            </Link>
           </li>
 
           <li class="nav-item col-3" role="presentation">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4" aria-selected="false" tabindex="-1" role="tab">
+            <Link class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4" aria-selected="false" tabindex="-1" role="tab">
               <h4>Nostrum</h4>
-            </a>
+            </Link>
           </li>
 
         </ul>
@@ -49,7 +56,7 @@ function Feature() {
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-1.jpg" alt="" class="img-fluid"/>
+                <img src={features_1} alt="" class="img-fluid"/>
               </div>
             </div>
           </div>
@@ -70,7 +77,7 @@ function Feature() {
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-2.jpg" alt="" class="img-fluid"/>
+                <img src={features_2} alt="" class="img-fluid"/>
               </div>
             </div>
           </div>
@@ -89,7 +96,7 @@ function Feature() {
                 </p>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-3.jpg" alt="" class="img-fluid"/>
+                <img src={features_3} alt="" class="img-fluid"/>
               </div>
             </div>
           </div>
@@ -109,7 +116,7 @@ function Feature() {
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-4.jpg" alt="" class="img-fluid"/>
+                <img src={features_4} alt="" class="img-fluid"/>
               </div>
             </div>
           </div>

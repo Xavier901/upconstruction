@@ -1,0 +1,22 @@
+/* Remove underlines from all nav links */
+.navmenu a {
+  text-decoration: none;
+}
+
+/* Optional: Keep color consistent on hover */
+.navmenu a:hover {
+  text-decoration: none;
+  color: inherit; /* or a specific color */
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+#hero-carousel a {
+  text-decoration: none;
+}
